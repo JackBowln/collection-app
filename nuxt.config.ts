@@ -16,7 +16,13 @@ export default defineNuxtConfig({
     }
   },
   runtimeConfig: {
-    secretKey: `UhfYqmlzVkG7op0hOS0DJlpbjDpHgGpzUJZR+Q==dmUNibndmHIziYOc6Un55UWq`,
+    secretToken: ``,
+    googleClientId: "",
+    googleClientSecret: "",
+    githubClientId: "",
+    githubClientSecret: "",
+    emailAuth: "",
+    emailPassword: ""
   },
   auth: {
     baseURL: "/api/auth",
